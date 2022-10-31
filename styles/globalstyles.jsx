@@ -3,16 +3,16 @@ import { createGlobalStyle } from "styled-components";
 const GlobalStyle = createGlobalStyle`
 
   @font-face {
-    font-family: "Ivardisplay";
-    src: url("/fonts/IvarDisplayCondensed-Regular.woff");
+    font-family: "Satoshi-Bold";
+    src: url("/fonts/Satoshi-Bold.woff2");
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-display: swap;
   }
 
   @font-face {
-    font-family: "Ivardisplaycondensed";
-    src: url("/fonts/IvarDisplayCondensed-Light.woff");
+    font-family: "Satoshi-Regular";
+    src: url("/fonts/Satoshi-Regular.woff2");
     font-style: normal;
     font-weight: 300;
     font-display: swap;
